@@ -1,0 +1,31 @@
+{
+    margin:0 auto;
+    padding:0;
+
+}
+
+.menu-horizontal{
+
+background-color: rgb(37,37,39);
+
+}
+
+.menu-horizontal ul{
+
+max-width: 800px;
+
+}
+
+.menu-horizontal ul li{
+
+display: inline;
+border style: dashed;
+
+}
+
+.menu-horizontal ul li a{
+
+color: #FFF;
+padding: 20px;
+
+}

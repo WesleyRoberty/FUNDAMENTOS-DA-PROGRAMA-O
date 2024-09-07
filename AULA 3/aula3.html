@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento de exemplos em javascript</title>
+<style>
+
+.container{
+
+width: 80%;
+margin: 0 auto;
+
+}
+
+#meuBotao {
+padding: 10px 20px;
+font-size: 18px;
+background-color: red;
+color: white
+cursor: pointer;
+}
+
+.text:hover{
+
+ color: rgb(0, 38, 255);
+background-color: aquamarine;
+
+ }
+
+</style>
+</head>
+<body>
+    
+<h4 id="titulo">CLICK THE BOTTON TO CHANGE THE TEXT!</h4> 
+<button id="meuBotao">CLICK HERE!</button> 
+ 
+<script>
+
+const botao = document.getElementById('meuBotao');
+botao.addEventListener('click', function(){
+document.getElementById('titulo').innerText = 'YOU CLICKED!';
+
+})
+
+</script>
+
+
+<div id="container">
+    <p id="titulo">CLICK THE BOTTON TO CHANGE THE TEXT!</p>
+    
+            </div>
+
+
+</body>
+</html>
